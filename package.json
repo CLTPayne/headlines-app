@@ -1,0 +1,23 @@
+{
+  "name": "headlines-app",
+  "version": "1.0.0",
+  "description": "A web application to display the latest news headlines.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "open SpecRunner.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CLTPayne/headlines-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CLTPayne/headlines-app/issues"
+  },
+  "homepage": "https://github.com/CLTPayne/headlines-app#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
