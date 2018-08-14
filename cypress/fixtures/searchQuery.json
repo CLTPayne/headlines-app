@@ -1,0 +1,3035 @@
+{
+    "query": {
+        "queryString": "brexit",
+        "queryContext": {
+            "curations": [
+                "ARTICLES",
+                "BLOGS",
+                "PAGES",
+                "PODCASTS",
+                "VIDEOS"
+            ]
+        },
+        "resultContext": {
+            "maxResults": 20,
+            "offset": 21,
+            "sortField": "initialPublishDateTime",
+            "sortOrder": "DESC",
+            "aspects": [
+                "title",
+                "images",
+                "lifecycle",
+                "metadata",
+                "editorial"
+            ],
+            "contextual": true,
+            "highlight": false,
+            "suppressDefaultSort": false
+        }
+    },
+    "results": [
+        {
+            "indexCount": 23946,
+            "curations": [
+                "ARTICLES",
+                "BLOGS",
+                "PAGES",
+                "PODCASTS",
+                "VIDEOS"
+            ],
+            "results": [
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "76604d94-9cb1-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/76604d94-9cb1-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "Week ahead: Brexit talks, Walmart results, US retail sales"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T21:23:11Z",
+                        "lastPublishDateTime": "2018-08-10T21:23:11Z"
+                    },
+                    "editorial": {
+                        "byline": "Mamta Badkar"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "US",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Mamta Badkar",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economic Indicators",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Consumer Prices",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Retail Sales",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "5fcf9aa0-9b38-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/5fcf9aa0-9b38-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "Subversive strain Remainers failed to harness"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T21:11:54Z",
+                        "lastPublishDateTime": "2018-08-10T21:11:54Z"
+                    },
+                    "editorial": {
+                        "subheading": "From David Massumi, Männedorf, Switzerland"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Letter",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Letter",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Letter",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "eddc09ce-9ca9-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/eddc09ce-9ca9-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "Turkey delivers August crisis for markets"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T18:09:39Z",
+                        "lastPublishDateTime": "2018-08-10T18:09:39Z"
+                    },
+                    "editorial": {
+                        "subheading": "Ankara troubles send chill through emerging markets and Europe",
+                        "byline": "Roger Blitz and Jonathan Wheatley"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Currencies",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Turkish economy",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Euro",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish politics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Currencies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Political risk and investment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Turkish politics",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Euro",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Political risk and investment",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Currencies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F6678b8e2-9cc7-11e8-9702-5946bae86e6d?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "ab6c85d6-9bdd-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/ab6c85d6-9bdd-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "FT Health: Longevity and social change"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T13:10:42Z",
+                        "lastPublishDateTime": "2018-08-10T13:10:42Z"
+                    },
+                    "editorial": {
+                        "subheading": "Martin McKee on UK public health, anti-vaxxers advance, news in briefs",
+                        "byline": "Darren Dodd and Andew Jack"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Health",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Demographics and population",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Darren Dodd",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "London School of Hygiene & Tropical Medicine",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Health Service",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World Health Organisation",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Martin McKee",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Japan",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Medical science",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Healthcare costs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World Health Organisation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Disease prevention",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Ageing Populations",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health and fitness",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Climate change",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Neglected tropical diseases",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "London School of Hygiene & Tropical Medicine",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Environment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Pharmaceuticals",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Health Service",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Japan",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Demographics and population",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Martin McKee",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Disease prevention",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Medical science",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Pharmaceuticals",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health and fitness",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Neglected tropical diseases",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Demographics and population",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Climate change",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Healthcare costs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Ageing Populations",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F7efdcb28-9be1-11e8-9702-5946bae86e6d?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "c3ca1340-9963-11e8-88de-49c908b1f264",
+                    "apiUrl": "https://api.ft.com/content/c3ca1340-9963-11e8-88de-49c908b1f264",
+                    "title": {
+                        "title": "Perfidious Albion by Sam Byers — data days"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T10:02:08Z",
+                        "lastPublishDateTime": "2018-08-10T10:02:08Z"
+                    },
+                    "editorial": {
+                        "subheading": "From big tech to Brexit, contemporary anxieties are addressed in a frighteningly plausible vision of the near future",
+                        "byline": "Philip Womack"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Books",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Fiction",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Philip Womack",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Review",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Sam Byers",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Books",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Fiction",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Sam Byers",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Review",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Books",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Fiction",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F3c4b9746-9c37-11e8-ab77-f854c65a4465?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "38a79234-9c78-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/38a79234-9c78-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "‘Shackles are still on’: analysts respond to UK economic growth data"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T09:48:24Z",
+                        "lastPublishDateTime": "2018-08-10T09:48:24Z"
+                    },
+                    "editorial": {
+                        "byline": "Camilla Hodgson"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK business & economy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Office for National Statistics UK",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Camilla Hodgson",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Office for National Statistics UK",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Office for National Statistics UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "208ec4f2-95a6-11e8-95f8-8640db9060a7",
+                    "apiUrl": "https://api.ft.com/content/208ec4f2-95a6-11e8-95f8-8640db9060a7",
+                    "title": {
+                        "title": "Britain’s national parks are not the work of nature alone"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T09:39:04Z",
+                        "lastPublishDateTime": "2018-08-10T09:39:04Z"
+                    },
+                    "editorial": {
+                        "subheading": "In a countryside shaped by agriculture, farming has to remain healthy and viable",
+                        "byline": "Kim Wilkie"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "House & Home",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Kim Wilkie",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "UK agriculture",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural Issues",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "House & Home",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Natural Resources",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK agriculture",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "House & Home",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F61a862bc-9b65-11e8-9702-5946bae86e6d?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "6525c282-9aec-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/6525c282-9aec-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "Are humans too flawed to survive the 21st century?"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T09:10:33Z",
+                        "lastPublishDateTime": "2018-08-10T09:10:33Z"
+                    },
+                    "editorial": {
+                        "subheading": "AI, climate, fake news, Brexit — Yuval Noah Harari tackles our fears for the future",
+                        "byline": "John Thornhill"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Books",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Non-Fiction",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "John Thornhill",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Books Essay",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Feature",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Yuval Harari",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Environment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Books",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Feature",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Yuval Harari",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Non-Fiction",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Books Essay",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Books",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Non-Fiction",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F9624eb7c-9afd-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "blogPost",
+                    "modelVersion": "1",
+                    "id": "7f0b98bb-bb76-34cc-a519-069539326a15",
+                    "apiUrl": "https://api.ft.com/content/7f0b98bb-bb76-34cc-a519-069539326a15",
+                    "title": {
+                        "title": "Brexit, investment and the oil & gas industry"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T09:01:21Z",
+                        "lastPublishDateTime": "2018-08-10T09:01:21Z"
+                    },
+                    "editorial": {
+                        "byline": "Gavin Jackson"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Global Economy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Brexit",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Gavin Jackson",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "FT Alphaville",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Analysis",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Scotland",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Oil",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Natural Resources",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business investment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Analysis",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Scotland",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Alphaville",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business investment",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Oil",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "99d87a86-9a44-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/99d87a86-9a44-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "Westminster goes on holiday, but its problems remain"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T08:56:50Z",
+                        "lastPublishDateTime": "2018-08-10T08:56:50Z"
+                    },
+                    "editorial": {
+                        "subheading": "The FT’s political editor reports from the Houses of Parliament, where Brexit and the anti-Semitism row cast clouds over the summer",
+                        "byline": "George Parker"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Life & Arts",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "George Parker",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Feature",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Feature",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fb9f15eac-9c36-11e8-ab77-f854c65a4465?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "aac77e5c-9c77-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/aac77e5c-9c77-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "Economy picks up speed despite worries over global trade"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T08:37:42Z",
+                        "lastPublishDateTime": "2018-08-10T08:46:32Z"
+                    },
+                    "editorial": {
+                        "subheading": "Good weather helps growth to bounce back in the second quarter",
+                        "byline": "Gavin Jackson in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK business & economy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "UK economic growth",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Gavin Jackson",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Office for National Statistics UK",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "UK economic growth",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Office for National Statistics UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK GDP",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK GDP",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK economic growth",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F0319da54-9c79-11e8-ab77-f854c65a4465?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "01b1c0ea-9c57-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/01b1c0ea-9c57-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "Opinion today: A Moscow-Beijing alliance?"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T05:03:33Z",
+                        "lastPublishDateTime": "2018-08-10T05:03:33Z"
+                    },
+                    "editorial": {
+                        "subheading": "It is both wrong and dangerous to think that Russia and China can never be friends",
+                        "byline": "Sebastian Payne"
+                    },
+                    "metadata": {
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Sebastian Payne",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fef5ca3f4-9c58-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "563dc320-9c34-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/563dc320-9c34-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "The Saudi fund that has the financial world’s attention"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T04:15:25Z",
+                        "lastPublishDateTime": "2018-08-10T04:15:25Z"
+                    },
+                    "editorial": {
+                        "subheading": "Welcome to Due Diligence, the FT’s daily deals briefing"
+                    },
+                    "metadata": {
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Mergers & Acquisitions",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Due Diligence",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Due Diligence",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Newsletter",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F0db36b94-146a-11e7-80f4-13e067d5072c?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "e2c61396-9bea-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/e2c61396-9bea-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "Ineos chooses Germany to develop Land Rover Defender successor"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-10T04:01:42Z",
+                        "lastPublishDateTime": "2018-08-10T04:01:42Z"
+                    },
+                    "editorial": {
+                        "subheading": "Brexit-supporter Ratcliffe faces series of decisions on UK investments",
+                        "byline": "Peter Campbell, Michael Pooler and Sylvia Pfeifer in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Automobiles",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Ineos Group Ltd",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Sylvia Pfeifer",
+                                    "taxonomy": "authors"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Michael Pooler",
+                                    "taxonomy": "authors"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Peter Campbell",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Ineos Group Ltd",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Jim Ratcliffe",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Ineos Group Ltd",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Natural Resources",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Europe manufacturing",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Jim Ratcliffe",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Automobiles",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Government Grants & Subsidies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business investment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "European companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Automobiles",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business investment",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Europe manufacturing",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fcd427f8a-9c00-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "086e62f8-9a6d-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/086e62f8-9a6d-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "If the UK stays in the EIB, both will be winners"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T23:02:27Z",
+                        "lastPublishDateTime": "2018-08-09T23:02:27Z"
+                    },
+                    "editorial": {
+                        "subheading": "From Prof Stephany Griffith-Jones, New York, NY, US"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Letter",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Letter",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Letter",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "b3a3d99c-9bc0-11e8-ab77-f854c65a4465",
+                    "apiUrl": "https://api.ft.com/content/b3a3d99c-9bc0-11e8-ab77-f854c65a4465",
+                    "title": {
+                        "title": "CBI calls for UK to abandon immigration targets after Brexit"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T23:01:41Z",
+                        "lastPublishDateTime": "2018-08-09T23:01:41Z"
+                    },
+                    "editorial": {
+                        "subheading": "Employers’ body says EU citizens should not be included in Tier 2 visa system",
+                        "byline": "Laura Hughes in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK politics & policy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "UK immigration",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Laura Hughes",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Confederation of British Industry",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "UK immigration",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Confederation of British Industry",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global migration",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK immigration",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global migration",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F28c97184-9bf1-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "0a736c8c-8e70-11e8-9609-3d3b945e78cf",
+                    "apiUrl": "https://api.ft.com/content/0a736c8c-8e70-11e8-9609-3d3b945e78cf",
+                    "title": {
+                        "title": "London Open: a snapshot of the artistic zeitgeist"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T16:26:05Z",
+                        "lastPublishDateTime": "2018-08-09T16:26:05Z"
+                    },
+                    "editorial": {
+                        "subheading": "The latest edition of Whitechapel Art Gallery’s triennial show packs a real political punch",
+                        "byline": "Rachel Spence"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Arts",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Visual Arts",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Rachel Spence",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Review",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "V & A",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Uriel Orlow",
+                                    "taxonomy": "people"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Sonia Delaunay",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Visual Arts",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Arts",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Trade Fairs & Exhibitions",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Sonia Delaunay",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Review",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Patents Licensing & Standards",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Uriel Orlow",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "V & A",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Life & Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Arts",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Visual Arts",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F2586cabe-9bdb-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "2c107f88-9be5-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/2c107f88-9be5-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "Finance watchdog relaxed about bank models after Brexit"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T15:57:00Z",
+                        "lastPublishDateTime": "2018-08-09T15:57:00Z"
+                    },
+                    "editorial": {
+                        "subheading": "FCA says it is open to ‘broad range’ of arrangements on booking risk and profit",
+                        "byline": "Caroline Binham in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK business & economy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "London fights for its future",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Caroline Binham",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Conduct Authority UK",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European Central Bank",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Europe",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "City of London",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Financial services",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Conduct Authority UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "City of London",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK banks",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Europe",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financials",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "EU financial regulation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial & markets regulation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Banks",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK financial regulation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European banks",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "London fights for its future",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European Central Bank",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Financials",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial services",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "London fights for its future",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK banks",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European banks",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "EU financial regulation",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial & markets regulation",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK financial regulation",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Banks",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F63468cee-8520-11e8-9199-c2a4754b5a0e?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "7dea4b0e-9bae-11e8-88de-49c908b1f264",
+                    "apiUrl": "https://api.ft.com/content/7dea4b0e-9bae-11e8-88de-49c908b1f264",
+                    "title": {
+                        "title": "The EU and UK need to calm down about Brexit"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T13:04:22Z",
+                        "lastPublishDateTime": "2018-08-09T13:04:22Z"
+                    },
+                    "editorial": {
+                        "subheading": "A pragmatic, dispassionate approach will bear fruit because we are not that far apart",
+                        "byline": "Karin Kneissl"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Opinion",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Brexit",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Karin Kneissl",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Michel Barnier",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Austria",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Michel Barnier",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK foreign policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "European Union",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Austria",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "FT Secondary Schools",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK foreign policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F5f646940-9bd0-11e8-88de-49c908b1f264?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "650e6264-9b9a-11e8-9702-5946bae86e6d",
+                    "apiUrl": "https://api.ft.com/content/650e6264-9b9a-11e8-9702-5946bae86e6d",
+                    "title": {
+                        "title": "G4S shares tumble as profits and revenues fall"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-09T07:01:54Z",
+                        "lastPublishDateTime": "2018-08-09T08:22:14Z"
+                    },
+                    "editorial": {
+                        "subheading": "Security services group remains confident new contracts will anchor full-year results",
+                        "byline": "Michael Pooler and Camilla Hodgson"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Support services",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "G4S PLC",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Camilla Hodgson",
+                                    "taxonomy": "authors"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Michael Pooler",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "G4S PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "UK outsourcing",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Support services",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "G4S PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Corporate earnings",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Support services",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK outsourcing",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Corporate earnings",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Ff2ddfa9a-84fd-11e8-9199-c2a4754b5a0e?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

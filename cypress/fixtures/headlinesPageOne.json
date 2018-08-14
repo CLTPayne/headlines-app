@@ -1,0 +1,3596 @@
+{
+    "query": {
+        "queryContext": {
+            "curations": [
+                "ARTICLES",
+                "BLOGS",
+                "PAGES",
+                "PODCASTS",
+                "VIDEOS"
+            ]
+        },
+        "resultContext": {
+            "maxResults": 20,
+            "offset": 21,
+            "sortField": "initialPublishDateTime",
+            "sortOrder": "DESC",
+            "aspects": [
+                "title",
+                "images",
+                "lifecycle",
+                "metadata",
+                "editorial"
+            ],
+            "contextual": true,
+            "highlight": false,
+            "suppressDefaultSort": false
+        }
+    },
+    "results": [
+        {
+            "indexCount": 813593,
+            "curations": [
+                "ARTICLES",
+                "BLOGS",
+                "PAGES",
+                "PODCASTS",
+                "VIDEOS"
+            ],
+            "results": [
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "c2b4d920-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/c2b4d920-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Trump and the use and misuse of US sanctions"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T17:16:27Z",
+                        "lastPublishDateTime": "2018-08-14T17:16:27Z"
+                    },
+                    "editorial": {
+                        "subheading": "Penalties should be imposed judiciously and co-ordinated with allies"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Opinion",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "US politics & policy",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "The FT View",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Donald Trump",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "China",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Russia",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Iran",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Comment & Analysis",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Donald Trump",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "China",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Iran",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Russia",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "The FT View",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F08567296-9fb9-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "4ee682ec-9fd6-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/4ee682ec-9fd6-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "De-risking agricultural investment in Africa"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T17:13:40Z",
+                        "lastPublishDateTime": "2018-08-14T17:13:40Z"
+                    },
+                    "editorial": {
+                        "subheading": "Climate science can reduce uncertainty in a high-risk environment",
+                        "byline": "Evan Girvetz, CIAT"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Emerging markets",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Climate change",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "beyondbrics",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Senegal",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Africa",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Kenya",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Kenya",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "African economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Natural Resources",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "beyondbrics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Climate change",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Africa",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Environment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural Issues",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural trade",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural commodities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural production",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Senegal",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Agricultural trade",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "African economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural production",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Climate change",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Environment",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Agricultural commodities",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fc203e1c6-9fda-11e8-85da-eeb7a9ce36e4?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "6863e286-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/6863e286-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Time’s up for business school initiation rituals"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T17:08:54Z",
+                        "lastPublishDateTime": "2018-08-14T17:08:54Z"
+                    },
+                    "editorial": {
+                        "subheading": "Insead’s outdated ‘welcome week’ reinforced its MBAs’ elite status"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Opinion",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "MBA",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "The FT View",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "INSEAD",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Europe",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Education & Training",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Work & Careers",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Comment & Analysis",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Europe",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Education",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "MBA",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business education",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "INSEAD",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "The FT View",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Work & Careers",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Education",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Business education",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "MBA",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fc364734a-9fb8-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "1c76a686-9fe3-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/1c76a686-9fe3-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Uber picks former NSA general counsel as chief security officer"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T17:07:42Z",
+                        "lastPublishDateTime": "2018-08-14T17:07:42Z"
+                    },
+                    "editorial": {
+                        "subheading": "Matt Olsen fills role that has been vacant since data breach disclosed last year",
+                        "byline": "Shannon Bond"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Companies",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Uber",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Shannon Bond",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Uber",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Security Agency",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Dara Khosrowshahi",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Technology",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Share Structure",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "New Issues",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Security Agency",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Dara Khosrowshahi",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Uber",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Security",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Equal Opportunities & Discrimination",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Public Offerings",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Technology",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "e7bccd64-9fd6-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/e7bccd64-9fd6-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Buy-to-let lending slumps as landlords take fright at tax changes"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:48:02Z",
+                        "lastPublishDateTime": "2018-08-14T16:48:02Z"
+                    },
+                    "editorial": {
+                        "subheading": "Regulatory clampdown sees mortgage activity fall 19% compared with last year",
+                        "byline": "James Pickford in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK business & economy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Buy-to-let",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "James Pickford",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Personal Finance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Buy-to-let",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mortgages",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Property",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK property taxation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Buy-to-let",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Property",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK business & economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK property taxation",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mortgages",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Personal Finance",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F7b9681c4-9fdc-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "adff4c38-9fdf-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/adff4c38-9fdf-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Oil rises 1% before giving up gains in volatile trade"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:40:54Z",
+                        "lastPublishDateTime": "2018-08-14T16:40:54Z"
+                    },
+                    "editorial": {
+                        "byline": "Jessica Dye in New York"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Commodities",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Oil",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Jessica Dye",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Oil",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Commodities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Commodities",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Oil",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "236b20f2-9fd4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/236b20f2-9fd4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Student loan woes ease as US jobs market improves"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:21:52Z",
+                        "lastPublishDateTime": "2018-08-14T16:21:52Z"
+                    },
+                    "editorial": {
+                        "subheading": "Fewer graduates fall into arrears as economy strengthens but debt level tops $1.4tn",
+                        "byline": "Sam Fleming in Washington"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "US",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Student finance",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Sam Fleming",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Federal Reserve Bank of New York",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Democratic Party US",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Sam Fleming",
+                                    "taxonomy": "people"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Barack Obama",
+                                    "taxonomy": "people"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Betsy DeVos",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "New York State",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Personal Finance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Barack Obama",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Democratic Party US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Education & Training",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Personal debt",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Betsy DeVos",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "New York State",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US employment",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Corporate Finance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Federal Reserve Bank of New York",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Student finance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Student finance",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US employment",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Personal debt",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Personal Finance",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fc60af594-9fd9-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "9f162d6e-9fd4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/9f162d6e-9fd4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "M&A/activists: Carl cools it"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:13:49Z",
+                        "lastPublishDateTime": "2018-08-14T16:13:49Z"
+                    },
+                    "editorial": {
+                        "subheading": "Companies can fight off activists with good arguments"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Health Care",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Mergers & Acquisitions",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Express Scripts Holding Co",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Cigna Corp",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Carl Icahn",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Carl Icahn",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Express Scripts Holding Co",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Commentary",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US & Canadian companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Cigna Corp",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Investor activism",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Corporate governance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US & Canadian companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Investor activism",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Corporate governance",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F69d592e0-9fdc-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "e9c65cde-9fda-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/e9c65cde-9fda-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "The London Report: Melrose FTSE 100’s biggest gainer"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:08:36Z",
+                        "lastPublishDateTime": "2018-08-14T16:08:36Z"
+                    },
+                    "editorial": {
+                        "subheading": "Goldman Sachs plays down concerns that its GKN acquisition has been struggling",
+                        "byline": "Bryce Elder"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK equities",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Melrose Industries PLC",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Bryce Elder",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Market Report",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Melrose Industries PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK equities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Market Report",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Equities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Melrose Industries PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Interim Results",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK equities",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Equities",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "39051d68-9fda-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/39051d68-9fda-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "China’s Ganfeng Lithium Signs supply agreement with Korea’s LG Chem"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T16:05:59Z",
+                        "lastPublishDateTime": "2018-08-14T16:05:59Z"
+                    },
+                    "editorial": {
+                        "byline": "Henry Sanderson"
+                    },
+                    "metadata": {
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "2a8fb136-9fca-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/2a8fb136-9fca-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Esure/Bain Capital: motor skills"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:52:44Z",
+                        "lastPublishDateTime": "2018-08-14T15:52:44Z"
+                    },
+                    "editorial": {
+                        "subheading": "Insurer’s £1.2bn takeover has been deemed fair by bankers"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Insurance",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "esure Group PLC",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Bain Capital LLC",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "esure Group PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Peter Wood",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Peter Wood",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Insurance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "New Issues",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Share Structure",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Commentary",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Bain Capital LLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Public Offerings",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "esure Group PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Insurance",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F992b73a0-9fd9-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "fd18b61c-9fd3-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/fd18b61c-9fd3-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Wall Street advances as Turkish lira rebound helps risk appetite"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:50:24Z",
+                        "lastPublishDateTime": "2018-08-14T15:50:24Z"
+                    },
+                    "editorial": {
+                        "byline": "Mamta Badkar"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Markets",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Mamta Badkar",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "The Wall Street Report",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "fastFT",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "The Wall Street Report",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Equities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US equities",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Equities",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US equities",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": []
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "3012a3c2-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/3012a3c2-9fb4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Kurds hold Syria territory talks with Damascus"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:43:48Z",
+                        "lastPublishDateTime": "2018-08-14T15:43:48Z"
+                    },
+                    "editorial": {
+                        "subheading": "Negotiations underline shifting dynamics in 7-year civil war",
+                        "byline": "Asser Khattab in Beirut and Andrew England in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Middle East & North Africa",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Syrian crisis",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Asser Khattab",
+                                    "taxonomy": "authors"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Andrew England",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Bashar al-Assad",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Ankara",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Russia",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Iran",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Syria",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Damascus",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Middle East & North Africa",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Ankara",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Syrian crisis",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Syria",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Iran",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Bashar al-Assad",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Russia",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Damascus",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Middle East & North Africa",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Syrian crisis",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fe10ff650-9fd9-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "c94642da-9f08-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/c94642da-9f08-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "The alt-right is revising its online strategy after a backlash"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:38:21Z",
+                        "lastPublishDateTime": "2018-08-14T15:38:21Z"
+                    },
+                    "editorial": {
+                        "subheading": "Despite social media bans, the movement is unlikely to be pushed aside",
+                        "byline": "Courtney Weaver"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Columnists",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "US race relations",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Courtney Weaver",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Anti Defamation League",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Washington D.C.",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Charlottesville, Virginia",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Charlottesville",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Anti Defamation League",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Washington D.C.",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US race relations",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social Media",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Charlottesville",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Columnists",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Charlottesville, Virginia",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US society",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "US society",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US race relations",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social affairs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Social Media",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "US politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fec6fef70-9f14-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "0523200a-9fc4-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/0523200a-9fc4-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Sensyne/AI: doctored data"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:24:57Z",
+                        "lastPublishDateTime": "2018-08-14T15:24:57Z"
+                    },
+                    "editorial": {
+                        "subheading": "Investors are being asked to take a lot on trust but the potential of AI in healthcare is huge"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Technology",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Artificial intelligence",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "National Health Service",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Technology",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "General News",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Artificial intelligence",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "National Health Service",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Commentary",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Technology",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Artificial intelligence",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Health Care",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Fea8dade4-9fd4-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "553498b0-9f9e-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/553498b0-9f9e-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "China’s NIO looks to raise $1.8bn in US flotation"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:24:05Z",
+                        "lastPublishDateTime": "2018-08-14T15:24:05Z"
+                    },
+                    "editorial": {
+                        "subheading": "Lossmaking electric car maker has come under attack over delayed deliveries",
+                        "byline": "Sherry Fei Ju in Hong Kong"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Automobiles",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "IPOs",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Sherry Fei Ju",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Tencent Holdings Ltd",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Tencent Holdings Ltd",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "New Issues",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Share Structure",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Automobiles",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Electric vehicles",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Chinese business & finance",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Asia-Pacific companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Public Offerings",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Electric vehicles",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "IPOs",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Chinese business & finance",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Automobiles",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Asia-Pacific companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrials",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F4ec78226-9fd0-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "66330a02-9fbc-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/66330a02-9fbc-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Antofagasta/copper: CU later"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T15:12:10Z",
+                        "lastPublishDateTime": "2018-08-14T15:12:10Z"
+                    },
+                    "editorial": {
+                        "subheading": "Miner has been caught in the price rout, but there are reasons to be optimistic"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Mining",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Antofagasta PLC",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Antofagasta PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Mining",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Energy sector",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrial metals",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Commentary",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Interim Results",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Antofagasta PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Copper",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Mining",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Copper",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Energy sector",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Industrial metals",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Ffa8b53e2-9fd2-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "c9b25448-9f03-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/c9b25448-9f03-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Financial tremors threaten Recep Tayyip Erdogan’s hold on Turkey"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T14:57:18Z",
+                        "lastPublishDateTime": "2018-08-14T14:57:18Z"
+                    },
+                    "editorial": {
+                        "subheading": "For him, economics is an accessory to politics, to drape around the election calendar",
+                        "byline": "David Gardner"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Columnists",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Turkish politics",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "David Gardner",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Recep Tayyip Erdogan",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "Middle East & North Africa",
+                                    "taxonomy": "regions"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkey",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Economic Indicators",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish politics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Comment & Analysis",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Columnists",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Recep Tayyip Erdogan",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Middle East & North Africa",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "Turkish politics",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Emerging markets",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Politics",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Turkish economy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global Economy",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2Ff45a995a-9f10-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "404d4f36-9fb8-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/404d4f36-9fb8-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "Pro-Brexit MPs to set out plans for no deal"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T14:49:48Z",
+                        "lastPublishDateTime": "2018-08-14T14:49:48Z"
+                    },
+                    "editorial": {
+                        "subheading": "Rees-Mogg group ERG to publish paper advocating leaving EU on WTO rules",
+                        "byline": "Laura Hughes in London"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "UK politics & policy",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "Brexit",
+                                "taxonomy": "topics"
+                            }
+                        },
+                        "authors": [
+                            {
+                                "term": {
+                                    "name": "Laura Hughes",
+                                    "taxonomy": "authors"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "World Trade Organisation",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Conservative Party UK",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Jacob Rees-Mogg",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "regions": [
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "regions"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "EU trade",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK trade",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World Trade Organisation",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global trade",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Conservative Party UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Jacob Rees-Mogg",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "News",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "EU trade",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "World",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK trade",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Brexit",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK politics & policy",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Global trade",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F3c600c20-9fd0-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                },
+                {
+                    "aspectSet": "article",
+                    "modelVersion": "1",
+                    "id": "a585f18e-9fbb-11e8-85da-eeb7a9ce36e4",
+                    "apiUrl": "https://api.ft.com/content/a585f18e-9fbb-11e8-85da-eeb7a9ce36e4",
+                    "title": {
+                        "title": "House of Fraser/Mike Ashley: not his department"
+                    },
+                    "lifecycle": {
+                        "initialPublishDateTime": "2018-08-14T14:38:46Z",
+                        "lastPublishDateTime": "2018-08-14T14:38:46Z"
+                    },
+                    "editorial": {
+                        "subheading": "Turning a lossmaking store chain into a Harrods will be difficult"
+                    },
+                    "metadata": {
+                        "primarySection": {
+                            "term": {
+                                "name": "Retail",
+                                "taxonomy": "sections"
+                            }
+                        },
+                        "primaryTheme": {
+                            "term": {
+                                "name": "House of Fraser PLC",
+                                "taxonomy": "organisations"
+                            }
+                        },
+                        "brand": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "brand"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "brand"
+                                }
+                            }
+                        ],
+                        "genre": [
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "genre"
+                                }
+                            }
+                        ],
+                        "organisations": [
+                            {
+                                "term": {
+                                    "name": "Sports Direct International PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "House of Fraser PLC",
+                                    "taxonomy": "organisations"
+                                }
+                            }
+                        ],
+                        "people": [
+                            {
+                                "term": {
+                                    "name": "Mike Ashley",
+                                    "taxonomy": "people"
+                                }
+                            }
+                        ],
+                        "sections": [
+                            {
+                                "term": {
+                                    "name": "Lex",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Sports Direct International PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Commentary",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Opinion",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mike Ashley",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK retail industry",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Retail & Consumer",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Retail",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "House of Fraser PLC",
+                                    "taxonomy": "sections"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Financial Times",
+                                    "taxonomy": "sections"
+                                }
+                            }
+                        ],
+                        "topics": [
+                            {
+                                "term": {
+                                    "name": "UK companies",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Retail",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "UK retail industry",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Retail & Consumer",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Mergers & Acquisitions",
+                                    "taxonomy": "topics"
+                                }
+                            },
+                            {
+                                "term": {
+                                    "name": "Companies",
+                                    "taxonomy": "topics"
+                                }
+                            }
+                        ]
+                    },
+                    "images": [
+                        {
+                            "url": "https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fprod-upp-image-read.ft.com%2F0bca7cd6-9fcf-11e8-b196-da9d6c239ca8?source=search&fit=scale-down&width=167",
+                            "type": "secondary"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
