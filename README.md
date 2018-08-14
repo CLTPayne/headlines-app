@@ -49,7 +49,7 @@ Web (full screen) optimised:
 ![web](./readme_images/Financial_Headlines_Web_Mock_Up.png)
 
 Mobile optimised:
-[Interactive version](https://xd.adobe.com/view/0ca788f3-1297-493d-68fa-76e119915efd-7a96/screen/6f57f272-4de0-4f7d-adfd-19d85269e268/Home-Search)
+[Interactive version](https://xd.adobe.com/view/0ca788f3-1297-493d-68fa-76e119915efd-7a96/)
 
 ### Diagram:
 ![diagram]()
