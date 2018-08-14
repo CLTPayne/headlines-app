@@ -35,12 +35,21 @@ As an avid news follower
 So that have the information I need
 I want to see headlines relating to a specific search word
 
+As an avid news follower
+So that I'm not overwhelmed with a never ending stream of content
+I want to see 20 headlines per page
+
 As an avid news follower on-the-go
 So that I have information on demand
 I want to have a great experience on mobile devices
 ```
 
 ### Mockup:
+Web (full screen) optimised:
+![web](./readme_images/Financial_Headlines_Web_Mock_Up.png)
+
+Mobile optimised:
+[Interactive version](https://xd.adobe.com/view/0ca788f3-1297-493d-68fa-76e119915efd-7a96/screen/6f57f272-4de0-4f7d-adfd-19d85269e268/Home-Search)
 
 ### Diagram:
 ![diagram]()
@@ -54,8 +63,12 @@ JavaScript and node.js
 
 ### Approach to solving the challenge:
 1. Investigate the FT Developer APIs using Postman to test a range of endpoints and see the full scope of data available via the various aspects and curations.
-2. Explore feature test options (selected Cypress over Nightwatch as have used it previously
-3. Focused on the BDD cycle so drafted user stories as per the project requirements
+2. Explore feature test options (selected Cypress over Nightwatch as have used it previously.
+3. Focused on the BDD cycle so drafted user stories as per the project requirements.
+4. Set up Express app to serve the application.
+5. Research the FT style and layout and mockup design to fit the user stories - used Adobe XD.
+6. Create basic HTML page to fit the mockup and user stories, and served via the Express.
+7. Explore template engine options for node.js. Not previously used a template engine so decided on pug due to popularity and level of documentation.
 
 
 ### Status at the point of push:
