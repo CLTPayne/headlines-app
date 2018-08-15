@@ -1,4 +1,5 @@
 .DS_Store
+app-env
 cypress/screenshots
 coverage
 node_modules
