@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Financial Headlines</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+
+    <% include partials/header %>
+
+    <br />
+
+    <div class="o-forms">
+      <form class="form-inline">
+        <label aria-describedby="text-box-info" for="o-forms-standard" class="o-forms__label"></label>
+        <input type="text" id="o-forms-standard" class="o-forms__text" autocomplete="off" value="Search the FT">
+        <button class="o-buttons o-buttons--primary o-buttons--mono o-buttons--big" type="submit">Search</button>
+      </form>
+    </div>
+
+    <br />
+
+    <%include partials/headlines %>
+
+    <br />
+
+    <% include partials/pagination %>
+
+    <br />
+
+    <% include partials/footer %>
+
+  </body>
+
+  <% include partials/scripts %>
+
+</html>
