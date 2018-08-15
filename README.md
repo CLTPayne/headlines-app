@@ -22,8 +22,8 @@ A web application to display the latest news headlines.
 1. Cypress final test suite for feature tests:
 ![cypress]()
 
-2. Jest final test coverage:
-![jest]()
+2. Jasmine final test coverage:
+![jasmine]()
 
 ### User Stories:
 ```
@@ -63,12 +63,16 @@ JavaScript and node.js
 
 ### Approach to solving the challenge:
 1. Investigate the FT Developer APIs using Postman to test a range of endpoints and see the full scope of data available via the various aspects and curations.
-2. Explore feature test options (selected Cypress over Nightwatch as have used it previously.
-3. Focused on the BDD cycle so drafted user stories as per the project requirements.
-4. Set up Express app to serve the application.
-5. Research the FT style and layout and mockup design to fit the user stories - used Adobe XD.
-6. Create basic HTML page to fit the mockup and user stories, and served via the Express.
-7. Explore template engine options for node.js. Not previously used a template engine so decided on pug due to popularity and level of documentation.
+2. Explore feature test options and selected Cypress over Nightwatch as have used it previously. Deeper dive into the pros and cons of stubbing network requests (as this is crucial to the page content). Decided to stub as they are faster and the FT headlines library is external and assumed to be reliably tested, Cypress also advises that stubs are perfect for JSON APIs.
+3. Research server side rendering (vs client side which have previously used)- good for SEO purposes as search engines can see a rendered page without having to run JavaScript.
+4. Focused on the BDD cycle so drafted user stories as per the project requirements.
+5. Set up Express app to serve the application.
+6. Research the FT style and layout and created a mockup design to fit the user stories using Adobe XD (as shown above).
+7. Create basic HTML page to fit the mockup and user stories, and served via the Express app.
+8. Decide on MVC model in order to keep code as clean as possible and easier to test in isolation. Also keep presentation logic separate from business logic.
+9. Explore template engine options for node.js. Not previously used a template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation.
+10. Explore FT Origami component library and understand how best to bundle the code for serving. Potentially use: colours, fonts, grid (as includes responsive features), footer, buttons, header, forms, social icons, image-service (for resizing images).
+11. Set up basic ejs framework with range of origami components and basic css styling to check functionality.
 
 
 ### Status at the point of push:
