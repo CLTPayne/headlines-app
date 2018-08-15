@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', index);
 
-app.listen(PORT, () => {
+app.listen(PORT, function() {
   console.log(`App is listening on port ${PORT}!`);
 });
 
