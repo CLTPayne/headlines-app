@@ -1,0 +1,20 @@
+body {
+  background-color: #FFF1E5;
+}
+
+.o-buttons__pagination {
+  text-align: center;
+}
+
+.o-forms {
+  text-align: center;
+  display: inline;
+}
+
+.o-forms__text {
+  text-align: center;
+}
+
+.o-grid-container {
+  text-align: center;
+}
