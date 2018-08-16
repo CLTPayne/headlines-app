@@ -31,7 +31,6 @@ describe("Headline", function() {
     ]
   };
 
-
   beforeEach(function() {
     headline = new Headline(apiResponseMock);
   });
@@ -46,6 +45,10 @@ describe("Headline", function() {
 
   it("accesses a news story theme", function() {
     expect(headline.theme()).toEqual("Test theme");
+  });
+
+  it("accesses a news story image", function() {
+    expect(headline.image()).toEqual("https://www.testimage.com");
   });
 
 });

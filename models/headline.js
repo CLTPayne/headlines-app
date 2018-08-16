@@ -15,3 +15,7 @@ Headline.prototype.subheading = function() {
 Headline.prototype.theme = function() {
   return this.headline.metadata.primaryTheme.term.name;
 };
+
+Headline.prototype.image = function() {
+  return this.headline.images[0].url;
+};
