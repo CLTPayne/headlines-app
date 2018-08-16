@@ -6,7 +6,7 @@ describe("Headline", function() {
 
   var headline;
 
-  var apiResponseMock = {
+  var headlineDouble = {
     "title": {
       "title": "Test headline 1"
     },
@@ -32,7 +32,7 @@ describe("Headline", function() {
   };
 
   beforeEach(function() {
-    headline = new Headline(apiResponseMock);
+    headline = new Headline(headlineDouble);
   });
 
   it("accesses a news story headline", function() {
