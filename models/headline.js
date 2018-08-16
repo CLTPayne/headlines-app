@@ -2,7 +2,7 @@
 
 function Headline(headline) {
   this.headline = headline;
-};
+}
 
 Headline.prototype.text = function() {
   return this.headline.title.title;
@@ -10,7 +10,6 @@ Headline.prototype.text = function() {
 
 Headline.prototype.subheading = function() {
   return this.headline.editorial.subheading;
-
 };
 
 Headline.prototype.theme = function() {
