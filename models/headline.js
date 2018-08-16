@@ -8,6 +8,11 @@ Headline.prototype.text = function() {
   return this.headline.title.title;
 };
 
+Headline.prototype.subheading = function() {
+  return this.headline.editorial.subheading;
+
+};
+
 Headline.prototype.theme = function() {
   return this.headline.metadata.primaryTheme.term.name;
 };

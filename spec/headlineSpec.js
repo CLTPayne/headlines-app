@@ -15,12 +15,12 @@ describe("Headline", function() {
                     "lastPublishDateTime": "2018-08-14T17:16:27Z"
                 },
                 "editorial": {
-                    "subheading": "Penalties should be imposed judiciously and co-ordinated with allies"
+                    "subheading": "Test summary of what this story is about"
                 },
                 "metadata": {
                     "primaryTheme": {
                         "term": {
-                            "name": "Test theme - Finance"
+                            "name": "Test theme"
                         }
                     },
                 },
@@ -40,8 +40,12 @@ describe("Headline", function() {
     expect(headline.text()).toEqual("Test headline 1");
   });
 
+  it('accesses a news story subheading', function() {
+    expect(headline.subheading()).toEqual("Test summary of what this story is about")
+  });
+
   it('accesses a news story theme', function() {
-    expect(headline.theme()).toEqual("Test theme - Finance")
+    expect(headline.theme()).toEqual("Test theme")
   });
 
 });
