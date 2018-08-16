@@ -20,7 +20,7 @@ describe("Headline", function() {
                 "metadata": {
                     "primaryTheme": {
                         "term": {
-                            "name": "US politics & policy"
+                            "name": "Test theme - Finance"
                         }
                     },
                 },
@@ -36,8 +36,12 @@ describe("Headline", function() {
     headline = new Headline(apiResponseMock);
   });
 
-  it('contains a news story headline', function() {
+  it('accesses a news story headline', function() {
     expect(headline.text()).toEqual("Test headline 1");
+  });
+
+  it('accesses a news story theme', function() {
+    expect(headline.theme()).toEqual("Test theme - Finance")
   });
 
 });
