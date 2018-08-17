@@ -87,6 +87,7 @@ Headline.prototype.subheading = function() {
 12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```
 13. Install Jasmine test runner for unit tests.
 14. TDD business logic for the headlines and list of headlines models.
+15. Source suitable dependencies for server based external API calls - chose [body-parser](http://momentjs.com/) for body parsing middleware as works with JSON and urlencoded bodies and well maintained (last commit was 10 days ago) and [request](https://github.com/request/request#readme) due to it's compatibility with form data and JSON, plus well maintained (last commit was 7 days ago 12.5 million weekly downloads. 
 
 
 ### Status at the point of push:
