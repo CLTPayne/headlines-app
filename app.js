@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var path = require('path');
+var dotenv = require('dotenv').config()
 var index = require('./routes/index');
 var PORT = process.env.PORT || 3000;
 
