@@ -1,8 +1,8 @@
-const express = require('express');
-const app = express();
-const path = require('path');
-const index = require('./routes/index');
-const PORT = 3000;
+var express = require('express');
+var app = express();
+var path = require('path');
+var index = require('./routes/index');
+var PORT = process.env.PORT || 3000;
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
