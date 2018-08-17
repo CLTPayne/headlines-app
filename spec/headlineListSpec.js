@@ -96,7 +96,6 @@ describe("HeadlineList", function() {
     ]
   };
 
-
   beforeEach(function() {
     headlineList = new HeadlineList;
   });
@@ -113,11 +112,11 @@ describe("HeadlineList", function() {
   it("stores an array of headlines", function() {
     headlineList.addHeadlines(multiApiResponseDouble);
     expect(headlineList.headlines.length).toEqual(2);
-  })
+  });
 
   it("stores more than one headline", function() {
     headlineList.addHeadlines(multiApiResponseDouble);
     expect(headlineList.headlines[1].headline.title.title).toEqual("Test title 4");
-  })
+  });
 
 });
