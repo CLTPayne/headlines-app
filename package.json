@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/CLTPayne/headlines-app#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "cypress": "^3.1.0",
