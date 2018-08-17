@@ -59,6 +59,17 @@ JavaScript and node.js
 
 ### Code Example:
 ```
+function Headline(headline) {
+  this.headline = headline;
+}
+
+Headline.prototype.text = function() {
+  return this.headline.title.title;
+};
+
+Headline.prototype.subheading = function() {
+  return this.headline.editorial.subheading;
+};
 ```
 
 ### Approach to solving the challenge:
@@ -72,11 +83,14 @@ JavaScript and node.js
 8. Decide on MVC model in order to keep code as clean as possible and easier to test in isolation. Also keep presentation logic separate from business logic.
 9. Explore template engine options for node.js. Not previously used a template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation.
 10. Explore FT Origami component library and understand how best to bundle the code for serving. Potentially use: colours, fonts, grid (as includes responsive features), footer, buttons, header, forms, social icons, image-service (for resizing images).
-11. Set up basic ejs framework with range of origami components and basic css styling to check functionality.
+11. Set up basic ejs framework with range of origami components and basic css styling to check functionality. Split elements out into partial views that can be reused and incorporated in a page as needed (inspired by the logic of libraries like React that give you components as reusable building blocks)
+12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```
+13. Install Jasmine test runner for unit tests.
+14. TDD business logic for the headlines and list of headlines models.
 
 
 ### Status at the point of push:
 1.
 
 ### Intended next steps:
-1.
+1. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
