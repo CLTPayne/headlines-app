@@ -1,5 +1,7 @@
 "use strict";
 
+var Headline = require("./headline");
+
 function HeadlineList() {
   this.headlines = [];
 }
@@ -10,3 +12,5 @@ HeadlineList.prototype.addHeadlines = function(apiResponse) {
     this.headlines.push(headline);
   }
 };
+
+module.exports = HeadlineList;

@@ -19,3 +19,5 @@ Headline.prototype.theme = function() {
 Headline.prototype.image = function() {
   return this.headline.images[0].url;
 };
+
+module.exports = Headline;
