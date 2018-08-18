@@ -31,9 +31,10 @@ router.get("/", function(req, res) {
     else {
       var headlines = JSON.parse(body);
       headlineList.addHeadlines(headlines);
+      res.render("index", {headlineList: headlineList});
     }
   });
-  res.render("index");
+
 });
 
 module.exports = router;
