@@ -81,20 +81,31 @@ Headline.prototype.subheading = function() {
 6. Research the FT style and layout and created a mockup design to fit the user stories using Adobe XD (as shown above).
 7. Create basic HTML page to fit the mockup and user stories, and served via the Express app.
 8. Decide on MVC model in order to keep code as clean as possible and easier to test in isolation. Also keep presentation logic separate from business logic.
-9. Explore template engine options for node.js. Not previously used a template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation.
+9. Explore template engine options for node.js. Not previously used a node template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation.
 10. Explore FT Origami component library and understand how best to bundle the code for serving. Potentially use: colours, fonts, grid (as includes responsive features), footer, buttons, header, forms, social icons, image-service (for resizing images).
-11. Set up basic ejs framework with range of origami components and basic css styling to check functionality. Split elements out into partial views that can be reused and incorporated in a page as needed (inspired by the logic of libraries like React that give you components as reusable building blocks)
-12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```
+11. Set up basic ejs framework with range of origami components and basic css styling to check functionality. Split elements out into partial views that can be reused and incorporated in a page as needed (inspired by the logic of libraries like React that give you components as reusable building blocks).
+12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```.
 13. Install Jasmine browser based test runner for unit tests.
 14. TDD business logic for the headlines and list of headlines models.
-15. Source suitable dependencies for server based external API calls - chose [body-parser](http://momentjs.com/) for body parsing middleware as works with JSON and urlencoded bodies and well maintained (last commit was 10 days ago) and [request](https://github.com/request/request#readme) due to it's compatibility with form data and JSON, plus well maintained (last commit was 7 days ago 12.5 million weekly downloads.
+15. Source suitable dependencies for server based external API calls - chose [body-parser](https://www.npmjs.com/package/body-parser) for body parsing middleware as works with JSON and urlencoded bodies and well maintained (last commit was 10 days ago) and [request](https://github.com/request/request#readme) due to it's compatibility with form data and JSON, plus well maintained (last commit was 7 days ago 12.5 million weekly downloads.
 16. Add dependency for using variables listed in .env files in process.env - chose [dotenv](https://github.com/motdotla/dotenv#readme) as seems to be most widely used and recommended with node. It also has zero dependencies.
 17. Research testing of Express routes with Jasmine. Decide to switch test suite from being run in the browser to CLI. This is to enable Jasmine (with the support of SuperTest for HTTP assertions) to test the Express controllers in project MVC design.  
+18. Although would often not test external code base, as the application 100% relies on the FT API to successfully send headline data and deliver on the user requirements, tested the index.js route's external API call.
+19. Render API response info via views. Reviewed image [accessibility](https://www.w3.org/WAI/tutorials/images/) and classified these as decorative because the heading, theme and subheading is already provided so no alt text needed.  
+20. Add styling and finalise origami component structure for the first feature (loading top headlines). Page is responsively optimised:<br/>
+  a. Grid view adjusts from four columns, to two columns, to a single column for mobile devices. <br/>
+  b. Reduced footer for ipad mini and smaller (as full footer includes a lot of extra links and reduces the page balance) so less core information is hidden. <br/>
+  c. Reduce the pagination controls to list just four numbered buttons and the arrow so fits to smallest mobile screens. (Fifth numbered button is hidden)
+  d. Images are slightly blurred in some situations but this is due to the free FT API providing limited thumbnails sizes and would be adjusted with full API access and image access.
+21. Install sass-lint and run with ```./node_modules/.bin/sass-lint -c .sasslintrc './public/stylesheets/style.css' -v -q```. Looked for an FT configuration template but none found so used a general best practise file. 
 
 ### Status at the point of push:
 1.
 
 ### Intended next steps:
-1. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
-2. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
-2. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
+1. Refactor API call logic out of controllers.
+2. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
+3. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
+4. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
+5. Consider using Jest for the test runner in future - as includes code coverage option
+6. If a real development scenario, would switch FT headlines API for the full API for full access to images and fix blurring at some sizes.
