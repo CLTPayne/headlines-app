@@ -2,7 +2,7 @@
 
 describe("Headline", function() {
 
-  var Headline = require('../models/headline');
+  var Headline = require("../models/headline");
   var headline;
 
   var headlineDouble = {
