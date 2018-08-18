@@ -13,7 +13,11 @@ Headline.prototype.subheading = function() {
 };
 
 Headline.prototype.theme = function() {
-  return this.headline.metadata.primaryTheme.term.name;
+  if (this.headline.metadata.primarySection !== undefined) {
+    return this.headline.metadata.primarySection.term.name
+  } else {
+    return null
+  }
 };
 
 Headline.prototype.image = function() {

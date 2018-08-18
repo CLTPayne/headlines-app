@@ -21,7 +21,7 @@ describe("HeadlineList", function() {
               "subheading": "Test summary of what this story is about 2"
             },
             "metadata": {
-              "primaryTheme": {
+              "primarySection": {
                 "term": {
                   "name": "Test theme 2",
                 }
@@ -54,7 +54,7 @@ describe("HeadlineList", function() {
               "subheading": "Test summary of what this story is about 3"
             },
             "metadata": {
-              "primaryTheme": {
+              "primarySection": {
                 "term": {
                   "name": "Test theme 3",
                 }
@@ -78,7 +78,7 @@ describe("HeadlineList", function() {
               "subheading": "Test summary of what this story is about 4"
             },
             "metadata": {
-              "primaryTheme": {
+              "primarySection": {
                 "term": {
                   "name": "Test theme 4",
                 }

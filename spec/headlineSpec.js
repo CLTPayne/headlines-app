@@ -5,49 +5,86 @@ describe("Headline", function() {
   var Headline = require("../models/headline");
   var headline;
 
-  var headlineDouble = {
-    "title": {
-      "title": "Test headline 1"
-    },
-    "lifecycle": {
-      "initialPublishDateTime": "2018-08-14T17:16:27Z",
-      "lastPublishDateTime": "2018-08-14T17:16:27Z"
-    },
-    "editorial": {
-      "subheading": "Test summary of what this story is about"
-    },
-    "metadata": {
-      "primaryTheme": {
-        "term": {
-          "name": "Test theme"
-        }
+  describe("Fully populated headline info", function() {
+
+    var headlineDouble = {
+      "title": {
+        "title": "Test headline 1"
       },
-    },
-    "images": [
-      {
-        "url": "https://www.testimage.com"
-      }
-    ]
-  };
+      "lifecycle": {
+        "initialPublishDateTime": "2018-08-14T17:16:27Z",
+        "lastPublishDateTime": "2018-08-14T17:16:27Z"
+      },
+      "editorial": {
+        "subheading": "Test summary of what this story is about"
+      },
+      "metadata": {
+        "primarySection": {
+          "term": {
+            "name": "Test theme"
+          }
+        },
+      },
+      "images": [
+        {
+          "url": "https://www.testimage.com"
+        }
+      ]
+    };
 
-  beforeEach(function() {
-    headline = new Headline(headlineDouble);
-  });
+    beforeEach(function() {
+      headline = new Headline(headlineDouble);
+    });
 
-  it("accesses a news story headline", function() {
-    expect(headline.text()).toEqual("Test headline 1");
-  });
+    it("accesses a news story headline", function() {
+      expect(headline.text()).toEqual("Test headline 1");
+    });
 
-  it("accesses a news story subheading", function() {
-    expect(headline.subheading()).toEqual("Test summary of what this story is about");
-  });
+    it("accesses a news story subheading", function() {
+      expect(headline.subheading()).toEqual("Test summary of what this story is about");
+    });
 
-  it("accesses a news story theme", function() {
-    expect(headline.theme()).toEqual("Test theme");
-  });
+    it("accesses a news story theme", function() {
+      expect(headline.theme()).toEqual("Test theme");
+    });
 
-  it("accesses a news story image", function() {
-    expect(headline.image()).toEqual("https://www.testimage.com");
-  });
+    it("accesses a news story image", function() {
+      expect(headline.image()).toEqual("https://www.testimage.com");
+    });
+
+  })
+
+
+  describe("Fully populated headline info", function() {
+
+    var headlineDouble = {
+      "title": {
+        "title": "Test headline 1"
+      },
+      "lifecycle": {
+        "initialPublishDateTime": "2018-08-14T17:16:27Z",
+        "lastPublishDateTime": "2018-08-14T17:16:27Z"
+      },
+      "editorial": {
+        "subheading": "Test summary of what this story is about"
+      },
+      "metadata": {
+      },
+      "images": [
+        {
+          "url": "https://www.testimage.com"
+        }
+      ]
+    };
+
+    beforeEach(function() {
+      headline = new Headline(headlineDouble);
+    });
+
+    it("returns null if no story theme is provided", function() {
+      expect(headline.theme()).toEqual(null);
+    });
+
+  })
 
 });
