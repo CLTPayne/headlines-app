@@ -16,7 +16,7 @@ Headline.prototype.theme = function() {
   if (this.headline.metadata.primarySection !== undefined) {
     return this.headline.metadata.primarySection.term.name
   } else {
-    return null
+    return this.headline.metadata.primaryTheme.term.name
   }
 };
 

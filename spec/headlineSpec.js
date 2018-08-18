@@ -24,6 +24,11 @@ describe("Headline", function() {
             "name": "Test theme"
           }
         },
+        "primaryTheme": {
+          "term": {
+            "name": "Test alternate theme"
+          }
+        },
       },
       "images": [
         {
@@ -55,7 +60,7 @@ describe("Headline", function() {
   })
 
 
-  describe("Fully populated headline info", function() {
+  describe("Partially populated headline info", function() {
 
     var headlineDouble = {
       "title": {
@@ -69,6 +74,11 @@ describe("Headline", function() {
         "subheading": "Test summary of what this story is about"
       },
       "metadata": {
+        "primaryTheme": {
+          "term": {
+            "name": "Test alternate theme 2"
+          }
+        },
       },
       "images": [
         {
@@ -81,8 +91,8 @@ describe("Headline", function() {
       headline = new Headline(headlineDouble);
     });
 
-    it("returns null if no story theme is provided", function() {
-      expect(headline.theme()).toEqual(null);
+    it("returns an alternate theme if primary section field is not populated", function() {
+      expect(headline.theme()).toEqual("Test alternate theme 2");
     });
 
   })
