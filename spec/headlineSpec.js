@@ -1,9 +1,8 @@
 "use strict";
 
-var describe, it, expect, beforeEach, Headline;
-
 describe("Headline", function() {
 
+  var Headline = require('../models/headline');
   var headline;
 
   var headlineDouble = {

@@ -1,9 +1,8 @@
 "use strict";
 
-var describe, it, expect, beforeEach, HeadlineList;
-
 describe("HeadlineList", function() {
 
+  var HeadlineList = require('../models/headlineList');
   var headlineList;
 
   var singleApiResponseDouble = {
