@@ -70,3 +70,21 @@ body {
   color: #66605c;
   text-align: left;
 }
+
+@media only screen and (max-width: 768px) {
+  .o-footer__matrix-group {
+    display: none;
+  }
+  #o-footer-section-2 {
+    display: none;
+  }
+  #o-footer-section-3 {
+    display: none;
+  }
+  .o-footer__matrix-title {
+    display: none;
+  }
+  #pagination-page-five {
+    display: none;
+  }
+}
