@@ -16,7 +16,7 @@ A web application to display the latest news headlines.
 1. Feature tests via Cypress CLI tool:<br/>
   a. Ensure development server is running with ```npm start```<br/>
   b. ```$(npm bin)/cypress run --browser chrome```<br/>
-2. Unit tests via Jasmine in the browser with ```open SpecRunner.html```
+2. Unit tests via Jasmine ```npm test```
 
 #### Test coverage:
 1. Cypress final test suite for feature tests:
@@ -85,13 +85,16 @@ Headline.prototype.subheading = function() {
 10. Explore FT Origami component library and understand how best to bundle the code for serving. Potentially use: colours, fonts, grid (as includes responsive features), footer, buttons, header, forms, social icons, image-service (for resizing images).
 11. Set up basic ejs framework with range of origami components and basic css styling to check functionality. Split elements out into partial views that can be reused and incorporated in a page as needed (inspired by the logic of libraries like React that give you components as reusable building blocks)
 12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```
-13. Install Jasmine test runner for unit tests.
+13. Install Jasmine browser based test runner for unit tests.
 14. TDD business logic for the headlines and list of headlines models.
-15. Source suitable dependencies for server based external API calls - chose [body-parser](http://momentjs.com/) for body parsing middleware as works with JSON and urlencoded bodies and well maintained (last commit was 10 days ago) and [request](https://github.com/request/request#readme) due to it's compatibility with form data and JSON, plus well maintained (last commit was 7 days ago 12.5 million weekly downloads. 
-
+15. Source suitable dependencies for server based external API calls - chose [body-parser](http://momentjs.com/) for body parsing middleware as works with JSON and urlencoded bodies and well maintained (last commit was 10 days ago) and [request](https://github.com/request/request#readme) due to it's compatibility with form data and JSON, plus well maintained (last commit was 7 days ago 12.5 million weekly downloads.
+16. Add dependency for using variables listed in .env files in process.env - chose [dotenv](https://github.com/motdotla/dotenv#readme) as seems to be most widely used and recommended with node. It also has zero dependencies.
+17. Research testing of Express routes with Jasmine. Decide to switch test suite from being run in the browser to CLI. This is to enable Jasmine (with the support of SuperTest for HTTP assertions) to test the Express controllers in project MVC design.  
 
 ### Status at the point of push:
 1.
 
 ### Intended next steps:
 1. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
+2. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
+2. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
