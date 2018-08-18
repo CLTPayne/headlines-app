@@ -5,6 +5,8 @@ var dotenv = require('dotenv').config()
 var index = require('./routes/index');
 var PORT = process.env.PORT || 3000;
 
+require('./prod')(app);
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
