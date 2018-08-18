@@ -21,7 +21,11 @@ Headline.prototype.theme = function() {
 };
 
 Headline.prototype.image = function() {
-  return this.headline.images[0].url;
+  if (this.headline.images !== undefined) {
+    return this.headline.images[0].url
+  } else {
+    return null
+  }
 };
 
 module.exports = Headline;

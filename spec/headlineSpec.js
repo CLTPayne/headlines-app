@@ -80,11 +80,6 @@ describe("Headline", function() {
           }
         },
       },
-      "images": [
-        {
-          "url": "https://www.testimage.com"
-        }
-      ]
     };
 
     beforeEach(function() {
@@ -93,6 +88,10 @@ describe("Headline", function() {
 
     it("returns an alternate theme if primary section field is not populated", function() {
       expect(headline.theme()).toEqual("Test alternate theme 2");
+    });
+
+    it("returns null if headline image is not populated", function() {
+      expect(headline.image()).toEqual(null);
     });
 
   })
