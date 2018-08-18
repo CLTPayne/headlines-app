@@ -57,7 +57,7 @@ describe("Headline", function() {
       expect(headline.image()).toEqual("https://www.testimage.com");
     });
 
-  })
+  });
 
 
   describe("Partially populated headline info", function() {
@@ -95,6 +95,6 @@ describe("Headline", function() {
       expect(headline.image()).toEqual(null);
     });
 
-  })
+  });
 
 });

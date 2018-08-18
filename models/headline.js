@@ -14,19 +14,19 @@ Headline.prototype.subheading = function() {
 
 Headline.prototype.theme = function() {
   if (this.headline.metadata.primarySection !== undefined) {
-    return this.headline.metadata.primarySection.term.name
+    return this.headline.metadata.primarySection.term.name;
   } else {
-    return this.headline.metadata.primaryTheme.term.name
+    return this.headline.metadata.primaryTheme.term.name;
   }
 };
 
 Headline.prototype.image = function() {
   if (this.headline.images.length !== 0) {
-    return this.headline.images[0].url
+    return this.headline.images[0].url;
   } else if (this.headline.images === undefined) {
-    return null
+    return null;
   } else {
-    return null
+    return null;
   }
 };
 

@@ -2,7 +2,7 @@
 
 describe("HeadlineList", function() {
 
-  var HeadlineList = require('../models/headlineList');
+  var HeadlineList = require("../models/headlineList");
   var headlineList;
 
   var singleApiResponseDouble = {
