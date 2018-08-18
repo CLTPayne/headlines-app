@@ -1,25 +1,15 @@
 <!-- Constant column spans -->
 <div class="o-grid-container">
 	<div class="o-grid-row">
-		<div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-		<div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-		<div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-		<div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
-    <div data-o-grid-colspan="3"><div class="demo-cell">Headline</div></div>
+	  <% for(var i = 0; i < headlineList.headlines.length; i++) { %>
+		 	<div data-o-grid-colspan="3">
+				<div class="demo-cell">
+					<img src="<%= headlineList.headlines[i].image() %>" alt="">
+					<%= headlineList.headlines[i].theme() %>
+					<%= headlineList.headlines[i].text() %>
+					<%= headlineList.headlines[i].subheading() %>
+				</div>
+			</div>
+	 	<% } %>;
 	</div>
 </div>

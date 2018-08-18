@@ -27,8 +27,7 @@ router.get("/", function(req, res) {
   function(error, response, body, headlineList = new HeadlineList) {
     if (error) {
       return (error);
-    }
-    else {
+    } else {
       var headlines = JSON.parse(body);
       headlineList.addHeadlines(headlines);
       res.render("index", {headlineList: headlineList});
