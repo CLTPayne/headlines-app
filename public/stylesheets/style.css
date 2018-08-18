@@ -19,6 +19,10 @@ body {
   text-align: center;
 }
 
+.demo-cell {
+  padding-bottom: 12px;
+}
+
 .o-image-wrapper {
   width: 100%;
 }
@@ -39,6 +43,8 @@ body {
   font-weight: 600;
   color: #990F3D;
   text-decoration: none;
+  margin-top: 2px;
+  margin-bottom: 0px;
   border: 0;
   text-align: left;
 }
@@ -49,7 +55,7 @@ body {
   font-size: 20px;
   line-height: 24px;
   color: #000;
-  margin-top: 0px;
+  margin-top: 3px;
   margin-bottom: 0px;
   font-weight: 400;
   text-align: left;
@@ -59,7 +65,7 @@ body {
   font-family: MetricWeb, sans-serif;
   font-size: 16px;
   line-height: 20px;
-  margin-top: 0px;
+  margin-top: 5px;
   margin-bottom: 0px;
   color: #66605c;
   text-align: left;
