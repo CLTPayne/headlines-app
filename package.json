@@ -8,6 +8,9 @@
     "test": "jasmine",
     "lint": "eslint"
   },
+  "engines":{
+    "node": "10.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CLTPayne/headlines-app.git"
@@ -20,9 +23,11 @@
   "homepage": "https://github.com/CLTPayne/headlines-app#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
     "dotenv": "^6.0.0",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
+    "helmet": "^3.13.0",
     "path": "^0.12.7",
     "request": "^2.88.0"
   },
