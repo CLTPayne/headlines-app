@@ -4,7 +4,7 @@
 	  <% for(var i = 0; i < headlineList.headlines.length; i++) { %>
 		 	<div data-o-grid-colspan="3">
 				<div class="demo-cell">
-					<img class="o-image-wrapper" src="<%= headlineList.headlines[i].image() %>" alt="" sizes="(min-width: 1220px) 574px, (min-width: 980px) 454px, (min-width: 740px) 688px, calc(100vw - 40px)">
+					<img class="o-image-wrapper" src="<%= headlineList.headlines[i].image() %>" alt="">
 					<div class="o-teaser__theme"><%= headlineList.headlines[i].theme() %></div>
 					<div class="o-teaser__heading"><%= headlineList.headlines[i].text() %></div>
 					<p class="o-teaser__summary"><%= headlineList.headlines[i].subheading() %></p>
