@@ -4,7 +4,7 @@ var dotenv = require("dotenv").config();
 var request = require("supertest")("http://api.ft.com/content/search/v1");
 var index = require("../routes/index");
 
-describe("Index route", function() {
+describe("Index", function() {
 
   describe("external API call to the FT", function() {
 
