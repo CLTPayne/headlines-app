@@ -21,5 +21,5 @@ app.listen(PORT, function() {
 });
 
 app.use(function (req, res, next) {
-  res.status(404).send("Sorry we're not sure that page exists?");
+  res.status(404).render("404");
 });
