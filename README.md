@@ -2,6 +2,8 @@
 
 A web application to display the latest news headlines.
 
+Live site - https://financial-headlines.herokuapp.com/
+
 ### Quickstart:
 #### How to install the code:
 1. Clone this project ```git clone https://github.com/CLTPayne/headlines-app.git```
@@ -107,7 +109,8 @@ Headline.prototype.subheading = function() {
   d. Set up the repository and update going forward with ```git push heroku master```
 25. Add simple 404 error message, with margins responding to screen size.
 26. Add search routing and functionality complete the search feature. Double checked FT API search endpoints in Postman to find that the query string is not case sensitive and functions with spaces.
-
+27. Test coverage - if I was to restart the project I would use Jest rather than Jasmine as there is no built in test coverage tool. Researching options for this and [Istanbul](https://www.npmjs.com/package/istanbul) seems to be the most trusted option with nearly 1M downloads a week and lots of users documenting it positively. Run test coverage with: ```istanbul cover --include-all-sources npm test```
+28. Review accessibility of the site. Research and improve use of ARIA to try to describe all labels, roles and states. Focused on using semantic HTML tags. 
 
 ### Status at the point of push:
 1.
