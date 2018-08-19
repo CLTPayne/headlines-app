@@ -2,6 +2,21 @@ body {
   background-color: #fff1e5;
 }
 
+h1 {
+  font-family: MetricWeb, sans-serif;
+  font-size: 50px;
+}
+
+p {
+  font-family: MetricWeb, sans-serif;
+  font-size: 25px;
+}
+
+.o-error-container {
+  padding-left: 150px;
+  padding-top: 20px;
+}
+
 .o-buttons__pagination {
   text-align: center;
 }
@@ -67,7 +82,18 @@ body {
   text-align: left;
 }
 
+@media only screen and (max-width: 992px) {
+  .o-error-container {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .o-error-container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   .o-footer__matrix-group {
     display: none;
   }
