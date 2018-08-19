@@ -94,7 +94,7 @@ Headline.prototype.subheading = function() {
 19. Render API response info via views. Reviewed image [accessibility](https://www.w3.org/WAI/tutorials/images/) and classified these as decorative because the heading, theme and subheading is already provided so no alt text needed.  
 20. Add styling and finalise origami component structure for the first feature (loading top headlines). Page is responsively optimised:<br/>
   a. Grid view adjusts from four columns, to two columns, to a single column for mobile devices. <br/>
-  b. Reduced footer for ipad mini and smaller (as full footer includes a lot of extra links and reduces the page balance) so less core information is hidden. <br/>
+  b. Reduced footer for iPad mini and smaller (as full footer includes a lot of extra links and reduces the page balance) so less core information is hidden. <br/>
   c. Reduce the pagination controls to list just four numbered buttons and the arrow so fits to smallest mobile screens. (Fifth numbered button is hidden). <br/>
   d. Images are slightly blurred in some situations but this is due to the free FT API providing limited thumbnails sizes and would be adjusted with full API access and image access.
 21. Install sass-lint and run with ```./node_modules/.bin/sass-lint -c .sasslintrc './public/stylesheets/style.css' -v -q```. Looked for an FT configuration template but none found so used a general best practise file.
@@ -105,7 +105,9 @@ Headline.prototype.subheading = function() {
   b. Installed (compression)[https://www.npmjs.com/package/compression] middleware for compress the http response that is sent to the client.<br/>
   c. Add engines info to package JSON.<br/>
   d. Set up the repository and update going forward with ```git push heroku master```
-25. Add search routing and functionality to complete next application feature. 
+25. Add simple 404 error message, with margins responding to screen size.
+26. Add search routing and functionality complete the search feature. Double checked FT API search endpoints in Postman to find that the query string is not case sensitive and functions with spaces.
+
 
 ### Status at the point of push:
 1.
