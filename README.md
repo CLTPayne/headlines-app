@@ -77,7 +77,7 @@ Headline.prototype.subheading = function() {
 ### Approach to solving the challenge:
 1. Investigate the FT Developer APIs using Postman to test a range of endpoints and see the full scope of data available via the various aspects and curations.
 2. Explore feature test options and selected Cypress over Nightwatch as have used it previously. Deeper dive into the pros and cons of stubbing network requests (as this is crucial to the page content). Decided to stub as they are faster and the FT headlines library is external and assumed to be reliably tested, Cypress also advises that stubs are perfect for JSON APIs.
-3. Research server side rendering (vs client side which have previously used)- good for SEO purposes as search engines can see a rendered page without having to run JavaScript.
+3. Research server side rendering (vs client side which have previously used) - good for SEO purposes as search engines can see a rendered page without having to run JavaScript.
 4. Focused on the BDD cycle so drafted user stories as per the project requirements.
 5. Set up Express app to serve the application.
 6. Research the FT style and layout and created a mockup design to fit the user stories using Adobe XD (as shown above).
@@ -96,22 +96,23 @@ Headline.prototype.subheading = function() {
 19. Render API response info via views. Reviewed image [accessibility](https://www.w3.org/WAI/tutorials/images/) and classified these as decorative because the heading, theme and subheading is already provided so no alt text needed.  
 20. Add styling and finalise origami component structure for the first feature (loading top headlines). Page is responsively optimised:<br/>
   a. Grid view adjusts from four columns, to two columns, to a single column for mobile devices. <br/>
-  b. Reduced footer for iPad mini and smaller (as full footer includes a lot of extra links and reduces the page balance) so less core information is hidden. <br/>
+  b. Reduced footer for iPad mini and smaller (as full footer includes a lot of extra links and reduces the page balance) so some information is hidden on smaller screens. <br/>
   c. Reduce the pagination controls to list just four numbered buttons and the arrow so fits to smallest mobile screens. (Fifth numbered button is hidden). <br/>
-  d. Images are slightly blurred in some situations but this is due to the free FT API providing limited thumbnails sizes and would be adjusted with full API access and image access.
+  d. Images are slightly blurred in some situations but this is due to the free FT API providing limited thumbnail sizes and would be adjusted with full API access and image access. Trade off - decided to still proceed with this design as feel more engaging and better optimised for all devices.
 21. Install sass-lint and run with ```./node_modules/.bin/sass-lint -c .sasslintrc './public/stylesheets/style.css' -v -q```. Looked for an FT configuration template but none found so used a general best practise file.
 22. Attempt to add cut the mustard test to check page loading environment and select core or enhanced version as best suited. However project is server rendered via views so not sure how to separate out the enhanced elements as a separate script. Will revisit if have time.
-23. Added nodemon for the development process to manage the server connection. This package watches for changes in the code base and restarts the server when a change is identified. Running the app with ```nodemon app.js```
-24. Now have the minimum viable version of the application so deploying now to avoid building more issues trying to deploy the final product. Prepare application for production:<br/>
-  a. Installed (helmet)[https://www.npmjs.com/package/helmet] middleware to help protect the application from some web vulnerabilities.<br/>
-  b. Installed (compression)[https://www.npmjs.com/package/compression] middleware for compress the http response that is sent to the client.<br/>
-  c. Add engines info to package JSON.<br/>
-  d. Set up the repository and update going forward with ```git push heroku master```
-25. Add simple 404 error message, with margins responding to screen size.
-26. Add search routing and functionality complete the search feature. Double checked FT API search endpoints in Postman to find that the query string is not case sensitive and functions with spaces.
-27. Test coverage - if I was to restart the project I would use Jest rather than Jasmine as there is no built in test coverage tool. Researching options for this and [Istanbul](https://www.npmjs.com/package/istanbul) seems to be the most trusted option with nearly 1M downloads a week and lots of users documenting it positively. Run test coverage with: ```istanbul cover --include-all-sources npm test```
+23. Added [nodemon](https://www.npmjs.com/package/nodemon) for the development process to manage the server connection. This package watches for changes in the code base and restarts the server when a change is identified. Running the app with ```nodemon app.js```
+24. Now have the minimum viable version of the application so deploying now to avoid building issues that can occur when trying to deploy the final product when complete. Prepare application for production:<br/>
+    a. Installed [helmet](https://www.npmjs.com/package/helmet) middleware to help protect the application from some web vulnerabilities.<br/>
+    b. Installed [compression](https://www.npmjs.com/package/compression) middleware for compress the http response that is sent to the client.<br/>
+    c. Add engines info to package JSON.<br/>
+    d. Set up the repository and update going forward with ```git push heroku master```
+25. Add simple 404 error message via view template, with margins responding to screen size.
+26. Add search routing and functionality to complete the search feature. Double checked FT API search endpoints in Postman to find that the query string is not case sensitive and functions with spaces.
+27. Test coverage - if I was to restart the project I would use Jest rather than Jasmine as there is no built in test coverage tool. Researching options for this and [Istanbul](https://www.npmjs.com/package/istanbul) seems to be the most trusted option with nearly 1M downloads a week and lots of users documenting it positively.
 28. Review accessibility of the site. Research and improve use of ARIA to try to describe all labels, roles and states. Focused on using semantic HTML tags.
 29. As per BDD cycle, revisit feature tests and adjust identifying ids and text to reflect current project status in response to user stories.
+30. Trade off - pulling through 20 items from FT API so as to have one full page rendered. Decided to prioritise responsiveness, accessibility, deployment, not using client-side frameworks, origami components and overall similar feel to FT over pagination.
 
 ### Status at the point of push:
 1. Search bar is fully functional, allows repeated searching
@@ -120,9 +121,11 @@ Headline.prototype.subheading = function() {
 4. Page loads just 20 results but no pagination.
 
 Home Page:
+
 ![browser](./readme_images/Financial_Times_Final_Site_Home_Page.png)
 
 Mobile:
+
 ![mobile](./readme_images/Financial_Times_Final_Site_Mobile.jpeg)
 
 ### Intended next steps:
@@ -130,9 +133,9 @@ Mobile:
 1. Refactor API call logic out of controllers.
 2. Improve Cypress feature tests to use the stubbed API call data. API call was successfully stubbed with custom command useMocks() however seems to be the structure of the real server side API call that prevents Cypress loading the successfully stubbed headlines the page:
 ![stub](./readme_images/Cypress_Stub_API_Call.png)
-3. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
-4. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
+3. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news. Would use [moment](http://momentjs.com/) to parse the ISO8601 time / date format.
+4. Update the Origami components from using the build service to manual build so as to have more control over the application and rendering.
 5. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
 6. If a real development scenario, would switch FT headlines API for the full API for full access to images and fix blurring at some sizes.
 7. Provide offline functionality. Did some research but did not have time to implement. This FT Labs [article](https://labs.ft.com/2012/08/basic-offline-html5-web-app/) was very interesting as a starting point. Would need a script listen for connection and download the latest headlines when online
-8. If a real scenario app would look at adjusting search results to take relevance into account (not just recency).
+8. If a real scenario app would look at adjusting search results to take relevance into account (not just recency) and provide a better user experience. 
