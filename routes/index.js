@@ -6,7 +6,7 @@ var HeadlineList = require("../models/headlineList");
 
 router.use(bodyParser.json());
 
-router.get("/", function(req, res) {
+router.get("/", function(req, res, next) {
   request.post({
     "headers": {
       "content-type": "application/json",
