@@ -23,10 +23,10 @@ Headline.prototype.theme = function() {
 };
 
 Headline.prototype.image = function() {
-  if (this.headline.images.length !== 0) {
-    return this.headline.images[0].url;
-  } else if (this.headline.images === undefined) {
+  if (this.headline.images === undefined) {
     return null;
+  } else if (this.headline.images.length !== 0) {
+      return this.headline.images[0].url;
   } else {
     return null;
   }

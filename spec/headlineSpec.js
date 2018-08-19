@@ -91,7 +91,38 @@ describe("Headline", function() {
       expect(headline.theme()).toEqual("Test alternate theme 2");
     });
 
-    it("returns null if headline image is not populated", function() {
+    it("returns null if headline image array is not populated", function() {
+      expect(headline.image()).toEqual(null);
+    });
+
+  });
+
+  describe("Missing headline info", function() {
+
+    var headlineDouble = {
+      "title": {
+        "title": "Test headline 1"
+      },
+      "lifecycle": {
+        "initialPublishDateTime": "2018-08-14T17:16:27Z",
+        "lastPublishDateTime": "2018-08-14T17:16:27Z"
+      },
+      "editorial": {
+        "subheading": "Test summary of what this story is about"
+      },
+      "metadata": {
+      },
+    };
+
+    beforeEach(function() {
+      headline = new Headline(headlineDouble);
+    });
+
+    it("returns null if there is headline theme is not populated in metadata", function() {
+      expect(headline.theme()).toEqual(null);
+    });
+
+    it("returns null if there is no headline image data", function() {
       expect(headline.image()).toEqual(null);
     });
 
