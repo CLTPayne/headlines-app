@@ -10,22 +10,22 @@ Live site - https://financial-headlines.herokuapp.com/
 2. Change into the directory ```cd headlines-app```
 3. Run ```npm install``` to add module dependencies
 
-#### How to use the website:
+#### How to use the website locally:
 1. Launch development server with ```npm start``` and visit ```localhost:3000```
 2. When finished with the application, close the server with ```^c```
 
-#### How to use the website:
+#### How to run the tests:
 1. Feature tests via Cypress CLI tool:<br/>
   a. Ensure development server is running with ```npm start```<br/>
   b. ```$(npm bin)/cypress run --browser chrome```<br/>
-2. Unit tests via Jasmine ```npm test```
+2. Unit tests via Jasmine with Istanbul for coverage ```npm test```
 
 #### Test coverage:
 1. Cypress final test suite for feature tests:
-![cypress]()
+![cypress](readme_images/Cypress_Final_Test_Results.png)
 
-2. Jasmine final test coverage:
-![jasmine]()
+2. Jasmine final unit test coverage:
+![jasmine](readme_images/Istanbul_Jasmine_Final_App_Code_Coverage.png)  
 
 ### User Stories:
 ```
@@ -54,7 +54,7 @@ Mobile optimised:
 [Interactive version](https://xd.adobe.com/view/0ca788f3-1297-493d-68fa-76e119915efd-7a96/)
 
 ### Diagram:
-![diagram]()
+![diagram](./readme_images/Financial_Headlines_App_MVC_Diagram.png)
 
 ### Code Style:
 JavaScript and node.js
@@ -63,7 +63,7 @@ JavaScript and node.js
 ```
 function Headline(headline) {
   this.headline = headline;
-}
+};
 
 Headline.prototype.text = function() {
   return this.headline.title.title;
@@ -110,16 +110,29 @@ Headline.prototype.subheading = function() {
 25. Add simple 404 error message, with margins responding to screen size.
 26. Add search routing and functionality complete the search feature. Double checked FT API search endpoints in Postman to find that the query string is not case sensitive and functions with spaces.
 27. Test coverage - if I was to restart the project I would use Jest rather than Jasmine as there is no built in test coverage tool. Researching options for this and [Istanbul](https://www.npmjs.com/package/istanbul) seems to be the most trusted option with nearly 1M downloads a week and lots of users documenting it positively. Run test coverage with: ```istanbul cover --include-all-sources npm test```
-28. Review accessibility of the site. Research and improve use of ARIA to try to describe all labels, roles and states. Focused on using semantic HTML tags. 
+28. Review accessibility of the site. Research and improve use of ARIA to try to describe all labels, roles and states. Focused on using semantic HTML tags.
+29. As per BDD cycle, revisit feature tests and adjust identifying ids and text to reflect current project status in response to user stories.
 
 ### Status at the point of push:
-1.
+1. Search bar is fully functional, allows repeated searching
+2. Pages are responsive
+3. Part way through cut the mustard test / implementing a core vs enhanced version of the site
+4. Page loads just 20 results but no pagination.
+
+Home Page:
+![browser](./readme_images/Financial_Times_Final_Site_Home_Page.png)
+
+Mobile:
+![mobile](./readme_images/Financial_Times_Final_Site_Mobile.jpeg)
 
 ### Intended next steps:
+1. Implement pagination.
 1. Refactor API call logic out of controllers.
-2. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
-3. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
-4. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
-5. Consider using Jest for the test runner in future - as includes code coverage option
+2. Improve Cypress feature tests to use the stubbed API call data. API call was successfully stubbed with custom command useMocks() however seems to be the structure of the real server side API call that prevents Cypress loading the successfully stubbed headlines the page:
+![stub](./readme_images/Cypress_Stub_API_Call.png)
+3. Use the lifecyle info for each news story headline to display if a story was published in the last 12 hours - to give the user info as to whether a story is breaking news.
+4. Switch the Origami components to using the build service to manual build so as to have more control over the application and rendering.
+5. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
 6. If a real development scenario, would switch FT headlines API for the full API for full access to images and fix blurring at some sizes.
-7. Provide offline functionality. Did some research but didn't have time to implement. This FT Labs [article](https://labs.ft.com/2012/08/basic-offline-html5-web-app/) was very interesting as a starting point.  
+7. Provide offline functionality. Did some research but did not have time to implement. This FT Labs [article](https://labs.ft.com/2012/08/basic-offline-html5-web-app/) was very interesting as a starting point. Would need a script listen for connection and download the latest headlines when online
+8. If a real scenario app would look at adjusting search results to take relevance into account (not just recency).
