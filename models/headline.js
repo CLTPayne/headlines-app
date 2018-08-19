@@ -18,7 +18,7 @@ Headline.prototype.theme = function() {
   } else if (this.headline.metadata.primaryTheme !== undefined) {
     return this.headline.metadata.primaryTheme.term.name;
   } else {
-    return null
+    return null;
   }
 };
 
@@ -26,7 +26,7 @@ Headline.prototype.image = function() {
   if (this.headline.images === undefined) {
     return null;
   } else if (this.headline.images.length !== 0) {
-      return this.headline.images[0].url;
+    return this.headline.images[0].url;
   } else {
     return null;
   }
