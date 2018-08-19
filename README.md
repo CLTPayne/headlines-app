@@ -81,7 +81,7 @@ Headline.prototype.subheading = function() {
 6. Research the FT style and layout and created a mockup design to fit the user stories using Adobe XD (as shown above).
 7. Create basic HTML page to fit the mockup and user stories, and served via the Express app.
 8. Decide on MVC model in order to keep code as clean as possible and easier to test in isolation. Also keep presentation logic separate from business logic.
-9. Explore template engine options for node.js. Not previously used a node template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation.
+9. Explore template engine options for node.js. Not previously used a node template engine so reviewed pug (due to recommendation in Express docs), mustache as understand it is especially suited for manipulating JSON in Javascript applications, and ejs. Decided on ejs due to considerably wider usage (2.1m weekly npm downloads) and volume of documentation. Also looked at templating engines for CSS (e.g. SASS) as this would allow more advanced syntax for defining the CSS, and then compile the definition into standard CSS for browsers to use. This project is small so ordinary CSS is sufficient.
 10. Explore FT Origami component library and understand how best to bundle the code for serving. Potentially use: colours, fonts, grid (as includes responsive features), footer, buttons, header, forms, social icons, image-service (for resizing images. Would like to manually build but will revisit if time.
 11. Set up basic ejs framework with range of origami components and basic css styling to check functionality. Split elements out into partial views that can be reused and incorporated in a page as needed (inspired by the logic of libraries like React that give you components as reusable building blocks).
 12. Install eslint and run with ```./node_modules/.bin/eslint [file name]```.
@@ -104,6 +104,8 @@ Headline.prototype.subheading = function() {
   a. Installed (helmet)[https://www.npmjs.com/package/helmet] middleware to help protect the application from some web vulnerabilities.<br/>
   b. Installed (compression)[https://www.npmjs.com/package/compression] middleware for compress the http response that is sent to the client.<br/>
   c. Add engines info to package JSON.<br/>
+  d. Set up the repository and update going forward with ```git push heroku master```
+25. Add search routing and functionality to complete next application feature. 
 
 ### Status at the point of push:
 1.
