@@ -3,16 +3,18 @@ var app = express();
 var path = require('path');
 var dotenv = require('dotenv').config()
 var index = require('./routes/index');
+var search = require('./routes/search');
+
 var PORT = process.env.PORT || 3000;
 
 require('./prod')(app);
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', 'views');
 app.set('view engine', 'ejs');
 
-app.use(express.static(path.join(__dirname, 'public')));
-
+app.use(express.static('public'));
 app.use('/', index);
+app.use('/search', search);
 
 app.listen(PORT, function() {
   console.log(`App is listening on port ${PORT}!`);
