@@ -22,10 +22,13 @@ Live site - https://financial-headlines.herokuapp.com/
 
 #### Test coverage:
 1. Cypress final test suite for feature tests:
-![cypress](readme_images/Cypress_Final_Test_Results.png)
+
+<img src="readme_images/Cypress_Final_Test_Results.png" alt="cypress" width="400px"/>
+
 
 2. Jasmine final unit test coverage:
-![jasmine](readme_images/Istanbul_Jasmine_Final_App_Code_Coverage.png)  
+
+<img src="readme_images/Istanbul_Jasmine_Final_App_Code_Coverage.png" alt="jasmine" width="400px"/>
 
 ### User Stories:
 ```
@@ -126,7 +129,7 @@ Home Page:
 
 Mobile:
 
-<img src="./readme_images/Financial_Times_Final_Site_Mobile.jpeg" alt="drawing" width="150px"/>
+<img src="./readme_images/Financial_Times_Final_Site_Mobile.jpeg" alt="mobile" width="300px"/>
 
 
 ### Intended next steps:
