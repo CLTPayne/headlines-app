@@ -126,7 +126,8 @@ Home Page:
 
 Mobile:
 
-![mobile](./readme_images/Financial_Times_Final_Site_Mobile.jpeg)
+<img src="./readme_images/Financial_Times_Final_Site_Mobile.jpeg" alt="drawing" width="150px"/>
+
 
 ### Intended next steps:
 1. Implement pagination.
@@ -138,4 +139,4 @@ Mobile:
 5. Update syntax to es6. Due to the timeline, chose es5 for this task due to greater familiarity.
 6. If a real development scenario, would switch FT headlines API for the full API for full access to images and fix blurring at some sizes.
 7. Provide offline functionality. Did some research but did not have time to implement. This FT Labs [article](https://labs.ft.com/2012/08/basic-offline-html5-web-app/) was very interesting as a starting point. Would need a script listen for connection and download the latest headlines when online
-8. If a real scenario app would look at adjusting search results to take relevance into account (not just recency) and provide a better user experience. 
+8. If a real scenario app would look at adjusting search results to take relevance into account (not just recency) and provide a better user experience.
